@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 .App {
   text-align: center;
 }
@@ -35,4 +38,17 @@
   to {
     transform: rotate(360deg);
   }
+}
+.wallet-adapter-dropdown{
+margin-top: 50px;
+}
+.wallet-adapter-button{
+  border-bottom: #282c34;
+}
+.wallet-adapter-modal-container {
+  max-width: 500px; /* Set maximum width */
+  margin: 0 auto; /* Center horizontally */
+}
+.connect-div{
+ margin-top: 150px ;
 }
